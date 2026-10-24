@@ -1,0 +1,11 @@
+﻿Console.Clear();
+Console.Write("Number(1/3): ");
+var Number1=Convert.ToDouble(Console.ReadLine());
+Console.Write("Number1(2/3): ");
+var Number2=Convert.ToDouble(Console.ReadLine());
+Console.Write("Number(3/3): ");
+var Number3=Convert.ToDouble(Console.ReadLine());
+var Sum=Number1+Number2+Number3;
+Console.WriteLine(Sum);
+var Average=Sum/3;
+Console.WriteLine("Average: "+Average);
